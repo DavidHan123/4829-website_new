@@ -125,7 +125,9 @@ STATIC_URL = '/static/'
 ##1)Set to image directory
 ##2)Run python3 manage.py collectstatic
 ##3)Use a web server to serve files
-##STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+# STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+PROJECT_DIR = os.path.dirname(os.path.abspath('core/'))
+STATIC_ROOT = os.path.join(PROJECT_DIR, 'static')
 
 # Activate Django-Heroku.
 # django_heroku.settings(locals())
