@@ -15,6 +15,7 @@
 								<div class="row no-gutters">
 									<div class="col-md-12 col-md-push-10 no-gutters">
 										<div class="work-img js-fullheight" style="background-image: url(images/image8-2.webp);">
+											<!-- <img src="{% static 'core/images/image8-2.webp' %}"> -->
 										</div>
 									</div>
 								</div>
@@ -25,9 +26,9 @@
 										<div class="display-t js-fullheight">
 											<div class="display-tc js-fullheight">
 												<div class="text-inner text-inner-right">
-													<h2><a href="work-single.html">Google</a></h2>
+													<h2><a href="{% url 'sponsor' %}">Google</a></h2>
 													<p>Thanks for lots of money. Vestibulum efficitur orci eu enim mattis, a suscipit leo consequat. Aliquam rutrum quam odio, eget vehicula turpis dapibus a. Ut sit amet eros pharetra, hendrerit ex in, auctor massa.</p>
-													<p><a href="work-single.html" class="btn-view">View Photo</a></p>
+													<p><a href="{% url 'sponsor' %}" class="btn-view">View Photo</a></p>
 												</div>
 											</div>
 										</div>
@@ -53,9 +54,9 @@
 										<div class="display-t js-fullheight">
 											<div class="display-tc js-fullheight">
 												<div class="text-inner text-inner-left">
-													<h2><a href="work-single.html">Lorem ipsum dolor sit amet</a></h2>
+													<h2><a href="{% url 'sponsor' %}">Lorem ipsum dolor sit amet</a></h2>
 													<p>Vestibulum efficitur orci eu enim mattis, a suscipit leo consequat. Aliquam rutrum quam odio, eget vehicula turpis dapibus a. Ut sit amet eros pharetra, hendrerit ex in, auctor massa. Praesent mattis elit in elit volutpat, nec aliquam ante dictum. Suspendisse fermentum sollicitudin sapien, ut porttitor mauris imperdiet at. Pellentesque eget orci id augue porta pellentesque.</p>
-													<p><a href="work-single.html" class="btn-view">View Photo</a></p>
+													<p><a href="{% url 'sponsor' %}" class="btn-view">View Photo</a></p>
 												</div>
 											</div>
 										</div>
